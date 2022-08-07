@@ -1,0 +1,32 @@
+<template>
+    <h1>Certification Details</h1>
+    <br>
+    <div class="slds-size_2-of-4" style="margin: 0 auto;">
+        
+
+            <template if:true={certList}>
+               
+                    <template for:each={certList} for:item="c">
+
+                        <lightning-layout multiple-rows key={c}>
+
+                            <div class="slds-var-m-right_large certTile">
+                               <p>
+                                {c.Name}
+                               </p>
+                              <br>
+                               <lightning-formatted-rich-text value={c.Certification_Image__c}>
+                            </lightning-formatted-rich-text>
+                            </div>
+                          
+
+                        </lightning-layout>
+
+                    </template>
+             
+            </template>
+
+
+  
+    </div>
+</template>

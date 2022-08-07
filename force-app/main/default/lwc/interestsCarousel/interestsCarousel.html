@@ -1,0 +1,30 @@
+<template>
+    <div class="slds-size_2-of-4 slds-text-align_center" style="margin: 0 auto;">
+        <div class="slds-box slds-box_x-small slds-text-align_center slds-var-m-around_x-small">
+            <lightning-card>
+                <!-- <h1 align="center" style="color: rebeccapurple;font-size:x-large">Hey <b>{name}!!</b> </h1> -->
+                <h1 align="center" style="color: rebeccapurple;font-size:x-large"><b>My Interests</b> </h1>
+            </lightning-card>
+<div class="lcd">
+            <lightning-carousel>
+
+                <lightning-carousel-image src={i1} 
+                    title="Interests"  description="Anime" alternative-text="First card accessible description."
+
+                    href="https://www.example.com">
+                </lightning-carousel-image>
+                <lightning-carousel-image src={i2} 
+                title="Interests"  description="Linux Desktop" alternative-text="First card accessible description."
+
+                   href="https://www.example.com">
+                </lightning-carousel-image>
+                <lightning-carousel-image
+                    src={i3}
+                    title="Interests"  description="Adventure" alternative-text="First card accessible description."
+                    href="https://www.example.com">
+                </lightning-carousel-image>
+            </lightning-carousel>
+</div>
+        </div>
+    </div>
+</template>
