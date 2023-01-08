@@ -1,0 +1,10 @@
+<template>
+    <h1> This is Customer Register Flow</h1>
+    <lightning-card>
+    <div class="slds">
+        <lightning-input type="text" label="Enter First Name" value={fname} onchange={onchangeFname}></lightning-input>
+        <lightning-button variant="success" label="Submit" title="Successful action" onclick={handleSubmit}
+                class="slds-m-left_x-small submitButton"></lightning-button>
+    </div>
+    </lightning-card>
+</template>
