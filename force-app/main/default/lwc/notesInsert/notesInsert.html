@@ -1,4 +1,5 @@
 <template>
 <h1> This is My Personal Notes </h1>    
-<lightning-input type="text" label="Enter notes"></lightning-input>
+<lightning-input type="text" label="Enter a note to add" onchange={handleOnChange}></lightning-input>
+<lightning-button type="submit" onclick={handleclick} label="Submit" value="submit"></lightning-button>
 </template>
