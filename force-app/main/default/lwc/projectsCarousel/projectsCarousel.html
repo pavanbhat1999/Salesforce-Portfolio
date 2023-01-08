@@ -1,0 +1,35 @@
+<template>
+    <div class="slds-size_2-of-4 slds-text-align_center" style="margin: 0 auto;">
+        <div class="slds-box slds-box_x-small slds-text-align_center slds-var-m-around_x-small">
+            <lightning-card>
+                <!-- <h1 align="center" style="color: rebeccapurple;font-size:x-large">Hey <b>{name}!!</b> </h1> -->
+                <h1 align="center" style="color: rebeccapurple;font-size:x-large"><b>My Projects</b> </h1>
+            </lightning-card>
+<div class="lcd">
+            <lightning-carousel>
+
+                <lightning-carousel-image src={i1} 
+                    title="Interests"  description="Sports Events Management" alternative-text="First card accessible description."
+
+                    href="https://sports-events--developer-edition.ap27.force.com/">
+                </lightning-carousel-image>
+                <lightning-carousel-image src={i2} 
+                title="Interests"  description="Sports Events Mangement 2" alternative-text="First card accessible description."
+
+                   href="https://sports-events--developer-edition.ap27.force.com/TryStandard/s/eventregistrations">
+                </lightning-carousel-image>
+                <lightning-carousel-image
+                    src={i3}
+                    title="Interests"  description="My Website" alternative-text="First card accessible description."
+                    href="https://pavanbhat.me/">
+                </lightning-carousel-image>
+                <lightning-carousel-image
+                src={i4}
+                title="Interests"  description="BlockChain Visualization" alternative-text="First card accessible description."
+                href="https://www.youtube.com/watch?v=sV-een_w2mI">
+            </lightning-carousel-image>
+            </lightning-carousel>
+</div>
+        </div>
+    </div>
+</template>

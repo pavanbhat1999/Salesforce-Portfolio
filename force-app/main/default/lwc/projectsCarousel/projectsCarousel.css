@@ -1,0 +1,10 @@
+:host {
+    --sds-c-card-color-background: #0a0b0b;
+    
+}
+.THIS .slds-carousel__content .content-container{
+    background: #0a0b0b;
+}
+.lcd{
+    background: #0a0b0b;
+}
