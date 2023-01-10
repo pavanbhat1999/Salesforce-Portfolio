@@ -1,0 +1,16 @@
+<template>
+    <h2>These are My Notes</h2>
+    <template if:true={notesList}>
+
+        <template for:each={notesList} for:item="n">
+
+            <lightning-layout multiple-rows key={n}>
+
+                <p>{n.Name} : {n.Description__c}</p>
+               
+            </lightning-layout>
+        </template>
+    </template>
+
+
+</template>
