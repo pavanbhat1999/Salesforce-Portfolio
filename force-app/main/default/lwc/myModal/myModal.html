@@ -1,0 +1,16 @@
+<template>
+    <lightning-modal-header label="Dose Check Form"></lightning-modal-header>
+    <lightning-modal-body> 
+        <lightning-flow
+        flow-api-name={flowApiName}
+        flow-input-variables={flowInputVariables}
+        onstatuschange={handleFlowStatusChange}
+        
+    >
+    </lightning-flow>
+
+    </lightning-modal-body>
+    <lightning-modal-footer>
+   
+    </lightning-modal-footer>
+</template>
