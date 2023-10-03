@@ -1,0 +1,7 @@
+<template>
+    <h1>Parent Component</h1>
+    <lightning-button label="Show/Hide" onclick={showHide}></lightning-button>
+    <template lwc:if={childVisible}>
+        <c-life-cycle-hook-child></c-life-cycle-hook-child>
+    </template>
+</template>

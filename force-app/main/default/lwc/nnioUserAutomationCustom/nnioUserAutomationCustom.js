@@ -142,7 +142,7 @@ export default class NnioUserAutomationCustom extends NavigationMixin(LightningE
     await insertUserBulk({'userJSON':JSON.stringify(this.datacsv)});
   } catch (error) {
     alert('Error happened during dml operations \n');
-    alert(error.body.message);
+    alert(error.body.message)
   }
  
   //? insert one by one

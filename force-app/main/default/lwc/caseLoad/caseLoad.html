@@ -1,0 +1,9 @@
+<template>
+    <lightning-card>
+        <h1> Case Data Upload </h1>
+        <lightning-input type="file" label="" onchange={handleFileUploadChange}></lightning-input>
+        <p>{inputFileStatus}</p>
+        <hr>        
+        <lightning-button label="Submit" name="Submit" onclick={handleSubmit} variant="brand"></lightning-button>
+    </lightning-card>
+</template>

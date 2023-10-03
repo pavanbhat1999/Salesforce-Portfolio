@@ -2,7 +2,7 @@ import { LightningElement } from 'lwc';
 import { createRecord } from 'lightning/uiRecordApi';
 import PasswordObj from '@salesforce/schema/Password__c';
 import Name from '@salesforce/schema/Password__c.Name';
-import Value from '@salesforce/schema/Password__c.passwordvalue__C';
+import Value from '@salesforce/schema/Password__c.passwordvalue__c';
 import searchName from '@salesforce/apex/passwordSearch.searchName';
 //import encrypt from '@salesforce/apex/encrypt.passwordEncode';
 
